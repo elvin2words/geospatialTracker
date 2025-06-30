@@ -1,0 +1,72 @@
+{
+  "name": "GeoTracker Pro",
+  "short_name": "GeoTracker",
+  "description": "Professional geofencing and location tracking system with offline capabilities",
+  "theme_color": "#1976D2",
+  "background_color": "#F5F7FA",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "start_url": "/",
+  "lang": "en",
+  "categories": ["utilities", "productivity", "business"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiByeD0iMjQiIGZpbGw9IiMxOTc2RDIiLz4KPHN2ZyB4PSI0OCIgeT0iNDgiIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CjxwYXRoIGQ9Ik0yMSAxMGMwIDcuMS04LjUgMTQuNS0xNC41IDEyUzEgMTAuMTIgMSAxMGEwIDkgMCAwIDEgMTgtOHoiLz4KPGV0Y2lyY2xlIGN4PSIxMiIgY3k9IjEwIiByPSIzIi8+Cjwvc3ZnPgo8L3N2Zz4K",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiByeD0iNjQiIGZpbGw9IiMxOTc2RDIiLz4KPHN2ZyB4PSIxMjgiIHk9IjEyOCIgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPgo8cGF0aCBkPSJNMjEgMTBjMCA3LjEtOC41IDE0LjUtMTQuNSAxMlMxIDEwLjEyIDEgMTBhOSA5IDAgMCAxIDE4IDB6Ii8+CjxjaXJjbGUgY3g9IjEyIiBjeT0iMTAiIHI9IjMiLz4KPC9zdmc+Cjwvc3ZnPgo=",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTQwIiBoZWlnaHQ9Ijk2MCIgdmlld0JveD0iMCAwIDU0MCA5NjAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI1NDAiIGhlaWdodD0iOTYwIiBmaWxsPSIjRjVGN0ZBIi8+CjxyZWN0IHg9IjIwIiB5PSI2MCIgd2lkdGg9IjUwMCIgaGVpZ2h0PSI0MDAiIHJ4PSIxMiIgZmlsbD0iI0U4RjVFOCIgc3Ryb2tlPSIjRDFENUQ5Ii8+Cjx0ZXh0IHg9IjI3MCIgeT0iMjgwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNkI3MjgwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTgiPkludGVyYWN0aXZlIE1hcDwvdGV4dD4KPC9zdmc+",
+      "sizes": "540x960",
+      "type": "image/svg+xml",
+      "form_factor": "narrow",
+      "label": "Mobile view showing interactive map with geofences"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Track Location",
+      "short_name": "Track",
+      "description": "Start location tracking",
+      "url": "/?action=track",
+      "icons": [
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMTk3NkQyIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHN2ZyB4PSIwIiB5PSIwIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgo8Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIzIi8+CjxwYXRoIGQ9Ik0xMiAxdjJtNiA1aDF2MG0wLTE2djBtLTYgNWgxIi8+CjxwYXRoIGQ9Im0xNi4yNSA3Ljc1LTEuNDIgMS40MiIvPgo8cGF0aCBkPSJtMS43NSAxNi4yNSAxLjQyLTEuNDIiLz4KPHN2Zz4KPC9zdmc+",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "View Dashboard",
+      "short_name": "Dashboard",
+      "description": "Open analytics dashboard",
+      "url": "/?view=dashboard",
+      "icons": [
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMTk3NkQyIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMgM2gxOGEyIDIgMCAwIDEgMiAydjE0YTIgMiAwIDAgMS0yIDJIM2EyIDIgMCAwIDEtMi0yVjVhMiAyIDAgMCAxIDItMnoiLz4KPHN2ZyB4PSI0IiB5PSI3IiB3aWR0aD0iMTYiIGhlaWdodD0iMTAiPgo8cGF0aCBkPSJNOSAxMWwyIDJsNC00Ii8+CjxyZWN0IHg9IjQiIHk9IjciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxMCIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4KPC9zdmc+",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 480
+  },
+  "protocol_handlers": [
+    {
+      "protocol": "geo",
+      "url": "/?lat=%s&lng=%s"
+    }
+  ]
+}
